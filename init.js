@@ -53,15 +53,15 @@ function createFooter() {
         © 2024
     </div>
     <div class="card-body">
-        <h5 class="card-title">Contact Information</h5>
+        <h5 class="card-title">Kontaktinformation</h5>
         <ul class="list-unstyled">
-            <li>Phone: <a href=""><span>123-456-7890</span><span class="sr-only">(current)</span></a></li>
-            <li>Email: <a href=""><span>ida.karstrom@elev.ga.ntig.se</span><span class="sr-only">(current)</span></a></li>
-            <li>Address: <a href="https://www.google.com/maps/place/Tomtebodav%C3%A4gen+3A,+171+65+Solna/@59.3452243,18.0234365,17z/data=!3m1!4b1!4m6!3m5!1s0x465f9d9cd12a90e3:0x5d507840ccf1f4a3!8m2!3d59.3452243!4d18.0234365!16s%2Fg%2F11c1xpt3x7?entry=ttu">
-                <span>Tomtebodavägen 3A, Solna, Sweden</span><span class="sr-only">(current)</span></a></li>
+            <li>Telefon: <a href=""><span>08-123 456 789</span><span class="sr-only">(current)</span></a></li>
+            <li>Email: <a href=""><span>info@cheftingeling.com</span><span class="sr-only">(current)</span></a></li>
+            <li>Adress: <a href="https://www.google.com/maps/place/Tomtebodav%C3%A4gen+3A,+171+65+Solna/@59.3452243,18.0234365,17z/data=!3m1!4b1!4m6!3m5!1s0x465f9d9cd12a90e3:0x5d507840ccf1f4a3!8m2!3d59.3452243!4d18.0234365!16s%2Fg%2F11c1xpt3x7?entry=ttu">
+                <span>Storgatan 15, 114 51 Stockholm</span><span class="sr-only">(current)</span></a></li>
         </ul>
-        <p class="card-text"><h6>Additional Movies, Series, and Music...</h6></p>
-        <a href="https://www.insidehook.com/film/best-movies-tv-music-january-2024" class="btn btn-primary">The Best Movies, TV and Music</a>
+        <p class="card-text"><h6>Resterande Restaurangplatser</h6></p>
+        <a href="https://www.insidehook.com/film/best-movies-tv-music-january-2024" class="btn btn-primary">Chef Tingeling</a>
     </div>
     
 </div>
