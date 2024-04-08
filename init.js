@@ -56,8 +56,8 @@ function createFooter() {
         <h5 class="card-title">Kontaktinformation</h5>
         <ul class="list-unstyled">
             <li>Telefon: <a href=""><span>08-123 456 789</span><span class="sr-only">(current)</span></a></li>
-            <li>Email: <a href=""><span>info@cheftingeling.com</span><span class="sr-only">(current)</span></a></li>
-            <li>Adress: <a href="https://www.google.com/maps/place/Tomtebodav%C3%A4gen+3A,+171+65+Solna/@59.3452243,18.0234365,17z/data=!3m1!4b1!4m6!3m5!1s0x465f9d9cd12a90e3:0x5d507840ccf1f4a3!8m2!3d59.3452243!4d18.0234365!16s%2Fg%2F11c1xpt3x7?entry=ttu">
+            <li>Email: <a href="mailto:info@cheftingeling.com"><span>info@cheftingeling.com</span><span class="sr-only">(current)</span></a></li>
+            <li>Adress: <a href="https://www.google.com/maps/place/Storgatan+15,+114+51+Stockholm/@59.3354492,18.0797066,17z/data=!3m1!4b1!4m6!3m5!1s0x465f9d5abb1d70af:0xb0384e71a2698322!8m2!3d59.3354465!4d18.0822815!16s%2Fg%2F11c29881_5?entry=ttu">
                 <span>Storgatan 15, 114 51 Stockholm</span><span class="sr-only">(current)</span></a></li>
         </ul>
         <p class="card-text"><h6>Resterande Restaurangplatser</h6></p>
