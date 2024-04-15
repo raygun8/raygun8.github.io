@@ -23,7 +23,7 @@ function createHeader() {
                 <a class="nav-link" href="menu.html">Meny</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="strid.html">Kock</a>
+                <a class="nav-link" href="strid.html">Mr. Strid</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="location.html">Hitta hit</a>
