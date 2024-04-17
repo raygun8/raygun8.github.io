@@ -61,7 +61,7 @@ function createFooter() {
                 <span>Storgatan 15, 114 51 Stockholm</span><span class="sr-only">(current)</span></a></li>
         </ul>
         <p class="card-text"><h6>Resterande Restaurangplatser</h6></p>
-        <a href="https://www.insidehook.com/film/best-movies-tv-music-january-2024" class="btn btn-primary">Chef Tingeling</a>
+        <a href="https://www.google.com/maps/search/Chef+Tingeling/@59.3736466,17.9266606,12z/data=!3m1!4b1?entry=ttu" class="btn btn-primary">Chef Tingeling</a>
     </div>
     
 </div>
