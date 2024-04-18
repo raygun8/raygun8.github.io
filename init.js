@@ -41,7 +41,11 @@ function createHeader() {
 </nav>
     `;
     document.body.insertBefore(header, document.body.firstChild);
+
+    
 }
+
+
 
 // Funktion för att skapa footer
 function createFooter() {
