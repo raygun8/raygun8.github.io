@@ -1,34 +1,38 @@
 const starters = [
-    ["Krämig hummersoppa med saffranscroutonger", "https://img.koket.se/standard-mega/hummersoppa-med-currykrutonger.jpg", "120 kr"],
-    ["Carpaccio med parmesan och rucola", "https://img.koket.se/standard-mega/carpaccio.jpg", "140 kr"],
-    ["Avokado- och räksallad", "https://img.koket.se/standard-mega/avokado-och-raksallad.jpg", "160 kr"]
+    ["Krämig hummersoppa med saffranscroutonger", "images/hummer.jpg", "120kr"],
+    ["Carpaccio med parmesan och rucola", "images/rucola.webp", "140kr"],
+    ["Avokado- och räksallad", "images/avoka.jpg", "160kr"]
 ];
 
 const mainCourses = [
-    ["Rostad anka med äppelcidersås och rotsaker", "https://img.koket.se/standard-mega/rostad-anka.jpg", "220 kr"],
-    ["Svamppasta med tryffelolja och parmesan", "https://img.koket.se/standard-mega/svamppasta.jpg", "260 kr"],
-    ["Grillad entrecote med rödvinssås och potatisgratäng", "https://img.koket.se/standard-mega/grillad-entrecote-med-rodvinssas.jpg", "300 kr"]
+    ["Rostad anka med äppelcidersås och rotsaker", "images/anka.jpg", "220kr"],
+    ["Svamppasta med tryffelolja och parmesan", "images/pasta.jpg", "260kr"],
+    ["Grillad entrecote med rödvinssås och potatisgratäng", "images/entre.jpg", "300kr"]
 ];
 
 const desserts = [
-    ["Vit chokladpannacotta med passionsfruktskräm", "https://img.koket.se/standard-mega/pannacotta-med-jordgubbssas.jpg", "100 kr"],
-    ["Crème brûlée med skogsbär", "https://img.koket.se/standard-mega/creme-brulee.jpg", "115 kr"],
-    ["Chokladfondant med vaniljglass", "https://img.koket.se/standard-mega/chokladfondant.jpg", "130 kr"]
+    ["Vit chokladpannacotta med passionsfruktskräm", "images/panna.jpg", "100kr"],
+    ["Crème brûlée med skogsbär", "images/creme.jpg", "115kr"],
+    ["Chokladfondant med vaniljglass", "images/choklad.jpg", "130kr"]
 ];
 
 const drinks = [
-    ["Gin & Tonic med gurka och fläder", "", "90 kr"],
-    ["Mojito med färsk mynta", "", "105 kr"],
-    ["Whiskey Sour med citron och sockerlag", "", "120 kr"]
+    ["Gin & Tonic med gurka och fläder", "images/gin.jpg", "90kr"],
+    ["Mojito med färsk mynta", "images/mojito.jpg", "105kr"],
+    ["Whiskey Sour med citron och sockerlag", "images/whiskey.jpg", "120kr"]
 ];
 
 const generateHTML = (category, categoryTitle, priceRange) => {
     let categoryHTML = "<div><h2>" + categoryTitle + "</h2><p>Pris: " + priceRange + "</p><div class='row'>";
     category.forEach((item) => {
-        categoryHTML += "<div class='col-md-4 text-left'>" +
-            "<p>" + item[0] + "</p>" +
-            "<img src='" + item[1] + "' alt='Bild på " + item[0] + "' style='width:100%;'>" +
-            "<p>" + item[2] + "</p>" +
+        categoryHTML += "<div class='col-md-4'>" +
+            "<div class='card'>" +
+            "<img src='" + item[1] + "' class='card-img-top' alt='Bild på " + item[0] + "' style='max-width:20%; height:auto;'>" +
+            "<div class='card-body'>" +
+            "<h5 class='card-title'>" + item[0] + "</h5>" +
+            "<p class='card-text'>" + item[2] + "</p>" +
+            "</div>" +
+            "</div>" +
             "</div>";
     });
     categoryHTML += "</div></div>";

@@ -54,7 +54,7 @@ function createFooter() {
     <footer class="footer bg-light text-dark text-center py-4 mt-5">
     
     <div class="card-header">
-        © 2024
+        © CT 2024
     </div>
     <div class="card-body">
         <h5 class="card-title">Kontaktinformation</h5>
