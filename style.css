@@ -1,0 +1,22 @@
+/* Delvis understreck */
+.underline-effect::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    /* Svart understreck */
+    transition: width 0.3s ease;
+}
+
+.underline-effect:hover::before {
+    width: 100%;
+}
+
+
+.nav-link {
+
+    position: relative;
+}

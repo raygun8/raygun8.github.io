@@ -17,7 +17,7 @@ function createHeader() {
                 <a class="nav-link" href="index.html">Hem <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.html">Om oss</a>
+            <a href="about.html" class="nav-link underline-effect">Om oss</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="menu.html">Meny</a>
