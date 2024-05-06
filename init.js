@@ -7,32 +7,33 @@ function createHeader() {
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
 
-    <a class="navbar-brand" href="#">Chef Tingeling</a>
+    <a class="navbar-brand" href="index.html">Chef Tingeling™</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">Hem <span class="sr-only">(current)</span></a>
+                <a href="index.html" class="nav-link underline-effect">Hem<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
             <a href="about.html" class="nav-link underline-effect">Om oss</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="menu.html">Meny</a>
+            <a href="menu.html" class="nav-link underline-effect">Meny</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="strid.html">Mr. Strid</a>
+                <a href="strid.html" class="nav-link underline-effect">Mr. Strid</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="location.html">Hitta hit</a>
+                <a href="location.html" class="nav-link underline-effect">Hitta hit</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="reservation.html">Boka bord</a>
+                <a href="reservation.html" class="nav-link underline-effect">Boka Bord</a>
+                
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Galleri</a>
+                <a href="gallery.html" class="nav-link underline-effect">Galleri</a>
             </li>
             
         </ul>
