@@ -1,3 +1,37 @@
+.bg-color-green {
+    background-color: rgb(46, 127, 58);
+  }
+  
+  .bg-color-gold {
+    background-color: rgb(167, 153, 92);
+  }
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  h1, h2 {
+    font-family: 'Palatino';
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-family: 'Palatino';
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .border-white {
+    border: 5px solid white;
+  }
+
+
 /* Delvis understreck */
 .underline-effect::before {
     content: "";
